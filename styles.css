@@ -1,0 +1,61 @@
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Reset default browser styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Styling for table head */
+thead {
+  background-color: #f2f2f2;
+}
+
+caption {
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light border */
+}
+
+/* Alternate row color */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Highlighted row */
+tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+/* Styling for the first column (Rank) */
+td:first-child,
+th:first-child {
+  background-color: #f2f2f2;
+  border-right: 1px solid #ddd; /* Light border */
+}
+
+/* Styling for the last column (STRK) */
+td:last-child,
+th:last-child {
+  font-weight: bold;
+}
+
+/* Styling for the caption */
+caption {
+  caption-side: top;
+  font-size: 1.5em;
+  padding: 10px;
+}
